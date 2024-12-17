@@ -19,5 +19,9 @@ const students = [
   },
 ];
 
+const student = students.find(elm => elm.id === 2);
+console.log(student); 
+
+
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
